@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.4.0(eslint@8.56.0)(typescript@5.3.3)
   '@crxjs/vite-plugin':
-    specifier: 2.0.0-beta.18
-    version: 2.0.0-beta.18
+    specifier: 2.0.0-beta.23
+    version: 2.0.0-beta.23
   '@simenandre/prettier':
     specifier: ^5.0.0
     version: 5.0.0(prettier@3.1.1)
@@ -312,8 +312,8 @@ packages:
       - typescript
     dev: true
 
-  /@crxjs/vite-plugin@2.0.0-beta.18:
-    resolution: {integrity: sha512-3jW20cUE04wTTg8HtoQD7bIL4Nhu91pRX4PHazMu2/tzzSTaR4stW5DHRIJOjFuRpOSCNNpyamyXwxS6qOv7Bg==}
+  /@crxjs/vite-plugin@2.0.0-beta.23:
+    resolution: {integrity: sha512-AO+VYhtNZ1fITq/sc54FZpTtFvHR+gJwFGiWTGKs07bwYzzZFdF0sYeiFgZiEjaNkddkAzuM4F4lgOmCm69YUw==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
