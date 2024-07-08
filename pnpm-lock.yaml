@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.4.0(eslint@8.56.0)(typescript@5.3.3)
   '@crxjs/vite-plugin':
-    specifier: 2.0.0-beta.18
-    version: 2.0.0-beta.18
+    specifier: 2.0.0-beta.25
+    version: 2.0.0-beta.25
   '@simenandre/prettier':
     specifier: ^5.0.0
     version: 5.0.0(prettier@3.1.1)
@@ -312,8 +312,8 @@ packages:
       - typescript
     dev: true
 
-  /@crxjs/vite-plugin@2.0.0-beta.18:
-    resolution: {integrity: sha512-3jW20cUE04wTTg8HtoQD7bIL4Nhu91pRX4PHazMu2/tzzSTaR4stW5DHRIJOjFuRpOSCNNpyamyXwxS6qOv7Bg==}
+  /@crxjs/vite-plugin@2.0.0-beta.25:
+    resolution: {integrity: sha512-g5ytTNiFpFCi+T0trSDJLohVz5PufLBLh6OGljyGTHkQCKiApuEgZ1bAjgPXluMDhMUvbPfZT10LYl5ROefXog==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -2536,6 +2536,10 @@ packages:
   /q@1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
     dev: true
 
   /queue-microtask@1.2.3:
