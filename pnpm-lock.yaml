@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0(prettier@3.1.1)
   '@types/chrome':
-    specifier: ^0.0.242
-    version: 0.0.242
+    specifier: ^0.3.0
+    version: 0.3.7
   '@types/react':
     specifier: ^18.0.37
     version: 18.2.46
@@ -690,21 +690,10 @@ packages:
       '@babel/types': 7.23.6
     dev: true
 
-  /@types/chrome@0.0.242:
-    resolution: {integrity: sha512-SeMXBSfcAGX9ezTz7Pro7n/AiNdIH3cetkdbM+Kfg3zD24jmbnm0IAEIxzx8ccqrnJenLCfD7fR+4WIYAbeQHw==}
+  /@types/chrome@0.3.7:
+    resolution: {integrity: sha512-jWZgbHqWbTL1a5+PoyN0OJutNyejWgyZ5MdcvKo6iJE1TNRtXR3FxsC4WzNl52yZWPidfWC8NV/VUNZf+OFKcA==}
     dependencies:
-      '@types/filesystem': 0.0.35
       '@types/har-format': 1.2.15
-    dev: true
-
-  /@types/filesystem@0.0.35:
-    resolution: {integrity: sha512-1eKvCaIBdrD2mmMgy5dwh564rVvfEhZTWVQQGRNn0Nt4ZEnJ0C8oSUCzvMKRA4lGde5oEVo+q2MrTTbV/GHDCQ==}
-    dependencies:
-      '@types/filewriter': 0.0.32
-    dev: true
-
-  /@types/filewriter@0.0.32:
-    resolution: {integrity: sha512-Kpi2GXQyYJdjL8mFclL1eDgihn1SIzorMZjD94kdPZh9E4VxGOeyjPxi5LpsM4Zku7P0reqegZTt2GxhmA9VBg==}
     dev: true
 
   /@types/har-format@1.2.15:
